@@ -1,0 +1,168 @@
+<!--
+    Nama:Daniel Sinambela
+    NIM:11423040
+    KELAS:D4 TRPL 2
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSW</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="form1.css"></script>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset class="formregister" onclick="formulir()">
+                <h1>Form Pendaftaran Mahasiswa Baru IT Del</h1>
+                <fieldset class="fieldsetrow1">
+                    <legend>Akun</legend>
+                    <table>
+                        <tr>
+                            <td><label for="email">Email *</label></td>
+                            <td><input type="text" id="email"></td>
+                            <td><label for="emailulang">Email Ulang*</label></td>
+                            <td><input type="text" id="emailulang"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password*</label></td>
+                            <td><input type="password" id="password"></td>
+                            <td><label for="passwordulang">Password Ulang*</label></td>
+                            <td><input type="password" id="passwordulang"></td>
+                            <td><p id="a">*Wajib Diisi</p></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset class="fieldsetrow2">
+                    <legend>Data Pribadi</legend>
+                    <table>
+                        <tr>
+                            <td><label for="nama">Nama*</label></td>
+                            <td><input type="text" id="nama"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telepon">Telepon*</label></td>
+                            <td><input type="text" id="telepon"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="alamat">Alamat</label></td>
+                            <td><textarea id="alamat"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="kota">Kota *</label></td>
+                            <td><input type="text" id="password"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="provinsi">Provinsi *</label></td>
+                            <td><select class="infobox">
+                                <option></optio>
+                                    <option>Sumatera Utara</option>
+                                    <option>Aceh</option>
+                                    <option>Sumatera Barat</option>
+                                    <option>Riau</option>
+                                    <option>Jambi</option>
+                                    <option>Sumatera Selatan</option>
+                                    <option>Bengkulu</option>
+                                    <option>Lampung</option>
+                                    <option>Banten</option>
+                                    <option>DKI Jakarta</option>
+                                    <option>Jawa Barat</option>
+                                    <option>Jawa Tengah</option>
+                                    <option>Jawa Timur</option>
+                                    <option>DI Yogyakarta</option>
+                                    <option>Bali</option>
+                                    <option>Nusa Tenggara Barat</option>
+                                    <option>Nusa Tenggara Timur</option>
+                                    <option>Kalimantan Barat</option>
+                                    <option>Kalimantan Tengah</option>
+                                    <option>Kalimantan Selatan</option>
+                                    <option>Kalimantan Timur</option>
+                                    <option>Kalimantan Utara</option>
+                                    <option>Gorontalo</option>
+                                    <option>Sulawesi Utara</option>
+                                    <option>Sulawesi Tengah</option>
+                                    <option>Sulawesi Selatan</option>
+                                    <option>Sulawesi Tenggara</option>
+                                    <option>Sulawesi Barat</option>
+                                    <option>Maluku</option>
+                                    <option>Maluku Utara</option>
+                                    <option>Papua</option>
+                                    <option>Papua Barat</option>
+                                
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="sosialmedia">Sosial Media</label></td>
+                            <td><input type="text" placeholder="https//"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset class="fieldsetrow3">
+                    <legend>Rincian Informasi</legend>
+                    <table>
+                        <tr>
+                            <td><label for="jkelamin">Jenis Kelamin*</label></td>
+                            <td><input type="radio" name="jkelamin" id="pria" ><label for="pria">Pria</label></td>
+                            <td><input type="radio" name="jkelamin" id="perempuan"><label for="perempuan">Perempuan</label></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tanggallahir">Tanggal Lahir*</label></td>
+                            <td><input type="number" min="1" max="31"></td>
+                            <td><select class="infobox">
+                                <option>Januari</option>
+                                <option>Februari</option>
+                                <option>Maret</option>
+                                <option>April</option>
+                                <option>Mei</option>
+                                <option>Juni</option>
+                                <option>Juli</option>
+                                <option>Agustus</option>
+                                <option>September</option>
+                                <option>Oktober</option>
+                                <option>November</option>
+                                <option>Desember</option>
+                            </select></td>
+                            <td><input type="number"></td>
+                            <td>cth. 2000</td>
+                        </tr>
+                        <tr>
+                            <td><label for="jalur">Jalur*</label></td>
+                            <td>
+                                <select>
+                                    <option>PMDK</option>
+                                    <option>USM1</option>
+                                    <option>USM2</option>
+                                    <option>USM3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="jurusan">Jurusan*</label></td>
+                            <td>
+                                <select>
+                                    <option>D3TI</option>
+                                    <option>D3TK</option>
+                                    <option>D4TRPL</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <h4>Pas Foto  3x4 Berwarna</h4>
+                    <button type="submit">Upload Foto</button>
+                </fieldset>
+                <fieldset class="fieldsetrow4">
+                    <legend>Fakta Integritas</legend>
+                    <input type="checkbox" id="faktaintegritas"><label>*Data yang diisikan adalah data yang benar.</label><br>
+                    <input type="checkbox" id="faktaintegritas"><label>*Jika data yang Anda berikan palsu, maka Anda akan dikenakan sanksi.</label>
+                </fieldset>
+               <button> <a href="form1.html"type="submit">Daftar >></button></a>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
