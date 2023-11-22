@@ -1,0 +1,136 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(180deg, #3dbbb3 -0%, rgba(170, 220, 191, 0.5416666269) 45.83%, rgba(148, 211, 174, 0.4166666567) 58.33%, rgba(115, 202, 155, 0.25) 75%, rgba(17, 149, 38, 0.0989583433) 90.1%, rgba(85, 165, 154, 0.0208333321) 97.92%, rgba(18, 120, 9, 0.0205030721) 99.97%, rgba(136, 255, 238, 0.0195249747) 99.98%, rgba(84, 164, 153, 0.0156250149) 99.99%, rgba(86, 216, 64, 0) 100%);
+}
+
+.hometeks {
+  font-weight: 800;
+  justify-content: space-between;
+  padding: 10px 80px 10px 80px;
+}
+
+.SI{
+  font-size: 6rem;
+  text-align: center;
+  padding-bottom: 20px;
+  color: rgb(221, 221, 56);
+}
+
+.lasroha{
+  font-size: 6rem;
+  text-align: center;
+  padding-bottom: 50px;
+  color:#ff7e5f;
+}
+
+@media screen and (max-width: 800px) {
+  .hometeks {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .SI {
+    padding-left: 0;
+    padding-bottom: 10px;
+  }
+
+  .lasroha {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sambo img {
+    width: 80%;
+  }
+}
+
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.gambar{
+  border-radius: 50%;
+}
+
+.container{
+  padding: 50px 0 0 0;
+}
+
+.content-slide{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.imgslide{
+  display: none;
+}
+
+.anisetus{
+  vertical-align: middle;
+  width: 100%;height: 400px;
+}
+
+.prev,
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+.pre:hover,
+.next:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+}
+
+.text{
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8;
+  width: 100%;
+  text-align: center;
+}
+
+.content-slide .numberslide{
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*responsif*/
+
+@media screen and (max-width: 800px) {
+  
+  .content-slide{
+    padding: 8px 50px 12px 50px;
+  }
+  .next{
+    right: 50px;
+    border-radius: 3px 0 0 3px;
+  }
+}
