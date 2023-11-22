@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <title>Daftar Obat</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2>V I T A M I N</h2>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="vitamin-a-tab"
+            data-toggle="tab"
+            href="#vitamin-a"
+            >Vitamin A</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="vitamin-b-tab"
+            data-toggle="tab"
+            href="#vitamin-b"
+            >Vitamin B</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="vitamin-c-tab"
+            data-toggle="tab"
+            href="#vitamin-c"
+            >Vitamin C</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="vitamin-c-tab"
+            data-toggle="tab"
+            href="#vitamin-d"
+            >Vitamin D</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="vitamin-c-tab"
+            data-toggle="tab"
+            href="#vitamin-e"
+            >Vitamin E</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content mt-4">
+        <div class="tab-pane fade show active" id="vitamin-a">
+          <ul class="list-group">
+            <!-- Isi dengan daftar obat Vitamin A -->
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatA1Modal"
+            >
+              <img
+                src="./Gambar/Vitamin A 200.000 IU Kimia Farma.jpg"
+                alt="Obat A1"
+                class="img-thumbnail"
+              />
+              <h5>Vitamin A 200.000 IU Kimia Farma</h5>
+            </li>
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatA2Modal"
+            >
+              <img
+                src="./Gambar/Eyefit.jpg"
+                alt="Obat A2"
+                class="img-thumbnail"
+              />
+              <h5>EyeFit</h5>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="vitamin-b">
+          <ul class="list-group">
+            <!-- Isi dengan daftar obat Vitamin B -->
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatB1Modal"
+            >
+              <img
+                src="./Gambar/KAMULVIT.webp"
+                alt="Obat B1"
+                class="img-thumbnail"
+              />
+              <h5>KAMULVIT B-12 Sirup productnation</h5>
+            </li>
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatB2Modal"
+            >
+              <img
+                src="./Gambar/WELLNESS.webp"
+                alt="Obat B1"
+                class="img-thumbnail"
+              />
+              <h5>WELLNESS Mega B Complex productnation</h5>
+            </li>
+            <!-- Tambahkan item lainnya untuk Vitamin B jika diperlukan -->
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="vitamin-c">
+          <ul class="list-group">
+            <!-- Isi dengan daftar obat Vitamin C -->
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatC1Modal"
+            >
+              <img
+                src="./Gambar/Sidomuncul.jpg"
+                alt="Obat C1"
+                class="img-thumbnail"
+              />
+              <h5>Sido Muncul Vitamin C-1000</h5>
+            </li>
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatC2Modal"
+            >
+              <img
+                src="./Gambar/VITACIMIN TABLET.jpg"
+                alt="Obat C1"
+                class="img-thumbnail"
+              />
+              <h5>Vitacimin Tablet</h5>
+            </li>
+            <!-- Tambahkan item lainnya untuk Vitamin C jika diperlukan -->
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="vitamin-d">
+          <ul class="list-group">
+            <!-- Isi dengan daftar obat Vitamin B -->
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatD1Modal"
+            >
+              <img
+                src="./Gambar/PROVED3.jpg"
+                alt="Obat D1"
+                class="img-thumbnail"
+              />
+              <h5>Nutrimax Vitamin D3 400 IU</h5>
+            </li>
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatD2Modal"
+            >
+              <img
+                src="./Gambar/NUTRIMAX.jpg"
+                alt="Obat D2"
+                class="img-thumbnail"
+              />
+              <h5>Prove D3 Drops</h5>
+              <!-- Tambahkan item lainnya untuk Vitamin B jika diperlukan -->
+            </li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="vitamin-e">
+          <ul class="list-group">
+            <!-- Isi dengan daftar obat Vitamin B -->
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatE1Modal"
+            >
+              <img
+                src="./Gambar/EVER E250.jpg"
+                alt="Obat E1"
+                class="img-thumbnail"
+              />
+              <h5>EVER E250</h5>
+            </li>
+            <li
+              class="list-group-item"
+              data-toggle="modal"
+              data-target="#obatE2Modal"
+            >
+              <img
+                src="./Gambar/aDVANCED.png"
+                alt="Obat E2"
+                class="img-thumbnail"
+              />
+              <h5>Advanced Soft Capsule 16s</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="obatA1Modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="obatA1ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="obatA1ModalLabel">
+              Vitamin A 200.000 IU Kimia Farma
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="./Gambar/Vitamin A 200.000 IU Kimia Farma.jpg"
+              alt="Obat A1"
+              class="img-fluid"
+            />
+            <p>
+              &nbsp;Mengandung 2.000 IU vitamin A untuk memenuhi kebutuhan tubuh
+              akan vitamin A. Suplemen ini juga bisa digunakan untuk mencegah
+              dan mengobati kekurangan vitamin A. Vitamin A IPI tersedia dalam
+              kemasan pot plastik berisi 45 tablet. Tiap tablet mengandung
+              vitamin A 2.000 IU. Vitamin A ini bisa dikonsumsi oleh dewasa dan
+              anak-anak dengan dosis 1 tablet sekali sehari.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="obatA2Modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="obatA1Moda2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="obatA2ModalLabel">
+              Vitamin A 200.000 IU Kimia Farma
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./Gambar/Eyefit.jpg" alt="Obat A2" class="img-fluid" />
+            <p>&nbsp;</p>
+            <p>
+              Eyevit adalah merek suplemen mata dengan kandungan 1.600 IU
+              retinol yang merupakan turunan dari vitamin A. Suplemen ini juga
+              mengandung beta karoten yang berubah menjadi vitamin A di dalam
+              tubuh. Selain itu, Eyevit juga mengandung ekstrak buah bilberry,
+              lutein, zeaxanthin, serta vitamin dan mineral.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="obatB1Modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="obatB1Moda2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="obatB1ModalLabel">
+              KAMULVIT B-12 Sirup productnation
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./Gambar/KAMULVIT.webp" alt="Obat B1" class="img-fluid" />
+            <p>&nbsp;</p>
+            <p>
+              Kamulvit B-12 juga bisa membantu proses masa penyembuhan, lho!
+              Kamulvit B-12 juga dapat mencegah rambut kering dan mengusir
+              resiko penyakit beri-beri dengan memberikannya secara rutin. Untuk
+              mengonsumsinya, cukup berikan anak-anak 1 sendok atau dengan
+              takaran 5 ml, sebanyak 1 kali sehari. Untuk dewasa, bisa
+              dikonsumsi dengan takaran yang sama sebanyak 1-2 kali sehari.
+              productnation
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="obatB2Modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="obatB2Moda2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="obatB2ModalLabel">
+              WELLNESS Mega B Complex productnation
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="./Gambar/WELLNESS.webp" alt="Obat B2" class="img-fluid" />
+            <p>&nbsp;</p>
+            <p>
+              Wellness vitamin B complex-nya dapat memperlancar aliran darah
+              pada saraf yang sering mengalami tekanan, terutama ketika duduk
+              dalam jangka waktu yang lama. Selain menjaga kesehatan sistem
+              saraf, vitamin B complex ini juga dapat membantu menjaga kesehatan
+              rambut, kulit, & fungsi otak. Bahkan, bisa juga membantu
+              mengurangi rasa cemas. Kandungan Cholin & Inositol yang terdapat
+              dari produk ini bisa membantu meminimalisir lemak di hati &
+              membantu memproduksi hormon tubuh. productnation
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
