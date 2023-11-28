@@ -1,0 +1,40 @@
+.jumbotron {
+  background-color: #cafffb;
+  background-size: cover;
+  color: rgb(10, 10, 10);
+  margin-bottom: 0%;
+  padding: 5%;
+}
+.container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+.cart-image-top {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: rgb(194, 245, 228);
+}
+#projects {
+  background-color: #cafffb;
+}
+.wrappers {
+  width: cover;
+  margin-left: 50%;
+  padding-bottom: 0%;
+}
+.wrappers .text {
+  font-family: "share", cursive;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 5px 5px 0px #fbe7c8, 8px 8px 0px #97f5b8;
+  color: rgb(252, 251, 251);
+  margin-bottom: 0%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

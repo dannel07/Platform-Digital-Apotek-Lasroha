@@ -1,0 +1,95 @@
+.card-img-top {
+  margin-bottom: 0px;
+}
+.card-body {
+  margin-bottom: 5px;
+}
+.card-body {
+  margin-top: auto;
+  align-items: flex-start;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.navbar-nav {
+  color: white;
+}
+.navbar-nav:hover {
+  transform: scale(1.05);
+}
+
+.display1 {
+  color: white;
+  font-weight: 400;
+  background-color: #c2524d;
+  border-radius: 7px;
+  padding: 7px;
+}
+.carousel {
+  width: 900px;
+}
+/* Modal Background Overlay */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 10px;
+}
+
+/* Modal Header */
+.modal-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Modal Title */
+.modal-title {
+  margin: 0;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Modal Footer */
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  padding: 10px;
+}
+
+/* Close Button */
+.close {
+  color: #fff;
+}
+
+/* Close Button Hover */
+.close:hover {
+  color: #fff;
+  opacity: 0.75;
+}
+
+/* Close Button on Modal Header */
+.modal-header .close {
+  margin-top: -1px;
+}
+
+/* Close Button on Modal Footer */
+.modal-footer .close {
+  margin-top: -10px;
+}
+/* Add animation class */
+.modal {
+  animation: modal-show 1s ease-out 1 forwards;
+  display: none;
+}
+
+.modal.fade.show {
+  animation-delay: 1s; /* Adjust the delay time as needed */
+  display: block;
+}
