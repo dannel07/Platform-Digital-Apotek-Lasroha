@@ -7,12 +7,9 @@
 
 .SI {
   flex: 1;
+  margin-bottom: 100px;
 }
 
-.SI h1,
-.SI h2 {
-  margin-top: 0;
-}
 
 .jedagjedug{
   border-radius: 50%;
@@ -22,8 +19,6 @@
 .jedagjedug:hover{
   transform: scale(1.1);
   transition: 0.5s;
-  
-
 }
 
 .gambar {
@@ -35,17 +30,22 @@
   font-size: 5rem;
   font-weight: 700;
   color: blueviolet;
+  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.766);
 }
 
+main{
+  margin-top: 30px;
+}
 
 .hometeks h2{
   font-size: 4rem;
   font-weight: 730;
   color: rgb(255, 227, 67);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.427);
 }
 
 .SI p{
- margin-top: 50px;
+ margin-top: 30px;
 }
 
 @media screen and (max-width: 800px) {
@@ -70,6 +70,79 @@
   }
 }
 
+.judul h2{
+  font-size: 70px;
+}
+
 .gambar{
   border-radius: 50%;
+}
+
+.col-md-6 a:hover{
+  background-color: rgb(77, 202, 77);
+  color: black;
+}
+
+.col-lg-4 a:hover{
+  background-color: rgb(114, 201, 114);
+  transform: scale(1.1);
+}
+
+.col-lg-4 h2{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 10px;
+}
+
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 0rem;
+  }
 }

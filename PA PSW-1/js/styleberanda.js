@@ -15,26 +15,6 @@ navToggle.addEventListener("click", function () {
   }
 });
 
-let searchToggle = document.querySelector(".search__toggle");
-let searchForm = document.querySelector(".search__form");
-
-searchToggle.addEventListener("click", showSearch);
-
-function showSearch() {
-  searchForm.classList.toggle("active");
-  searchToggle.classList.toggle("active");
-
-  navToggle.setAttribute("aria-expanded", "false");
-  navToggle.setAttribute("aria-label", "menu");
-  navWrapper.classList.remove("active");
-
-  if (searchToggle.classList.contains("active")) {
-    searchToggle.setAttribute("aria-label", "Close search");
-  } else {
-    searchToggle.setAttribute("aria-label", "Open search");
-  }
-}
-
 var slideIndex = 1;
 showSlide(slideIndex);
 
