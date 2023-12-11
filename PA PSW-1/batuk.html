@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="js/color-modes.js"></script>
@@ -8,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Batuk</title>
+    <title>Sistem Informasi Apotek Lasroha</title>
     <link rel="stylesheet" href="styles/reset.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/obat.css">
@@ -35,12 +34,6 @@
    
       }
 
-      .wrapper .text{
-        font-size: 50px;
-        font-weight: 500;
-        color: white;
-      }
-
     </style>
     
   </head>
@@ -52,7 +45,7 @@
             <img class="logo" src="gambar/logosaya.png" alt="ayam jago">
         </a>
           <button class="nav__toggle" aria-expanded="false" type="button">
-            Kategori Obat
+            Daftar Obat
           </button>
           <ul class="nav__wrapper">
             <li class="nav__item"><a href="vitamin.html">Vitamin</a></li>
@@ -63,6 +56,20 @@
             <li class="nav__item"><a href="#">Batuk</a></li>
           </ul>
         </nav>
+        <div class="search">
+          <button class="search__toggle" aria-label="Open search">
+            Search
+          </button>
+          <form class="search__form" action="">
+            <label class="sr-only" for="search">Search</label>
+            <input
+              type="search"
+              name=""
+              id="search"
+              placeholder="Cari...."
+            />
+          </form>
+        </div>
       </div>
       <div class="site-header__end">
         <ul class="sub-nav">
@@ -79,73 +86,64 @@
 
   <body>
 
-    <div class="jumbotron text-center" style="max-width: 100%;">
-      <img src="gambar/undraw_medicine_b-1-ol.svg" width="50%" />
-      <div class="row">
-        <div class="wrapper">
-          <div class="text">OBAT BATUK</div>
-        </div>
-    </div>
-  </div>
-
     <div class="container pb-4">
         <div class="row mt-5 ">
             <div class="col">
-                <div class="card shadow p-4 mb-5 bg-white rounded" style="width: 18rem; height: 22rem;" data-toggle="modal" data-target="#modalwoods">               
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;" data-toggle="modal" data-target="#modalwoods">               
                   <img src="gambar/woods.jpg" class="card-img-top" id="barang" alt="...">
                   <div class="card-body">
                     <p class="card-text">Obat Batuk Woods</p>
-                    <h5 class="card-title">Rp.32.000</h5>
+                    <h5 class="card-title">Rp.3.000</h5>
                 </div>
                 </div>
             </div>
 
             <div class="col">
-                <div class="card shadow p-4 mb-5 bg-white rounded" style="width: 18rem; height: 22rem;" data-toggle="modal" data-target="#modalsiladex">               
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;" data-toggle="modal" data-target="#modalsiladex">               
                   <img src="gambar/siladex.jpg" class="card-img-top" id="barang" alt="...">
                   <div class="card-body">
                     <p class="card-text">Obat Batuk Siladex</p>
-                    <h5 class="card-title">Rp.20.000</h5>
+                    <h5 class="card-title">Rp.3.000</h5>
                 </div>
                 </div>
             </div>
 
             <div class="col">
-                <div class="card shadow p-4 mb-5 bg-white rounded" style="width: 18rem; height: 22rem;" data-toggle="modal" data-target="#modalvicks">               
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;" data-toggle="modal" data-target="#modalvicks">               
                   <img src="gambar/vicks.jpg" class="card-img-top" id="barang" alt="...">
                   <div class="card-body">
                     <p class="card-text">Obat Batuk Vicks</p>
-                    <h5 class="card-title">Rp.25.000</h5>
+                    <h5 class="card-title">Rp.3.000</h5>
                 </div>
                 </div>
             </div>
 
             <div class="col">
-                <div class="card shadow p-4 mb-5 bg-white rounded" style="width: 18rem; height: 22rem;" data-toggle="modal" data-target="#modallaserin">               
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;" data-toggle="modal" data-target="#modallaserin">               
                   <img src="gambar/laserin.jpg" class="card-img-top" id="barang" alt="...">
                   <div class="card-body">
                     <p class="card-text">Obat Batuk Laserin</p>
-                    <h5 class="card-title">Rp.20.000</h5>
+                    <h5 class="card-title">Rp.3.000</h5>
                 </div>
                 </div>
             </div>
 
             <div class="col">
-                <div class="card shadow p-4 mb-5 bg-white rounded" style="width: 18rem; height: 22rem;" data-toggle="modal" data-target="#modalhufagrip">               
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;" data-toggle="modal" data-target="#modalhufagrip">               
                   <img src="gambar/hufagrip.jpg" class="card-img-top" id="barang" alt="...">
                   <div class="card-body">
                     <p class="card-text">Obat Batuk Hufagrip</p>
-                    <h5 class="card-title">Rp.23.000</h5>
+                    <h5 class="card-title">Rp.3.000</h5>
                 </div>
                 </div>
             </div>
 
             <div class="col">
-                <div class="card shadow p-4 mb-5 bg-white rounded" style="width: 18rem; height: 22rem;" data-toggle="modal" data-target="#modalbisolvon">               
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem; height: 20rem;" data-toggle="modal" data-target="#modalbisolvon">               
                   <img src="gambar/bisolvon.jpg" class="card-img-top" id="barang" alt="...">
                   <div class="card-body">
                     <p class="card-text">Obat Batuk Bisolvon Extra</p>
-                    <h5 class="card-title">Rp.66.000</h5>
+                    <h5 class="card-title">Rp.3.000</h5>
                 </div>
                 </div>
             </div>
@@ -282,7 +280,7 @@
 
     <footer class="footer">
       <div class="footer-left">
-          <h3>Metode Pembayaran</h3>
+          <h3>Payment Method</h3>
           <div class="credit-cards">
               <img src="gambar/dana.png" alt="">
               <img src="gambar/gopayku.png" alt="">
@@ -293,30 +291,31 @@
   
       <div class="footer-center">
           <div>
-              <a href="lokasi.html">
-              <i class="fa fa-map-marker"></i></a>
+              <i class="fa fa-map-marker"></i>
               <p><span>Indonesia</span> Sumatera Utara, Kab. Toba, Balige<br><span>jln. Sisingamangaraja No. 17 Balige</span></p>
           </div>
           <div>
-              <a href="https://wa.me/6281397586902">
-              <i class="fa fa-phone"></i></a>
-              <p><a href="https://wa.me/6281397586902">+62 813-9758-6902</a></p>
+              <i class="fa fa-phone"></i>
+              <p>+62 227-767-355-92</p>
           </div>
           <div>
-              <a href="mailto:apoteklasrohabalige@gmail.com">
-              <i class="fa fa-envelope"></i></a>
-              <p><a href="mailto:apoteklasrohabalige@gmail.com">apoteklasroha@gmail.com</a></p>
+              <i class="fa fa-envelope"></i>
+              <p><a href="#">apoteklasroha@gmail.com</a></p>
           </div>
       </div>
   
       <div class="footer-right">
           <p class="footer-about">
-              <span><a href="tentangkami.html">Tentang</a></span>
+              <span>About</span>
               Di Web ini kami memperkenalkan Apotek Lasroha dan memberikan informasi lengkap tentang produk dan layanan yang tersedia di Apotek Lasroha.
           </p>
   
           <div class="footer-media">
-              <a href="https://instagram.com/apoteklasroha?igshid=NzZlODBkYWE4Ng=="><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
           </div>
       </div>
   
