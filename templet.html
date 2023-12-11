@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tulisan Berjalan Satu Persatu</title>
+  <style>
+    #text-container {
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #000;
+    }
+  </style>
+</head>
+<body>
+
+<div id="text-container">
+  <h1 id="animated-text"></h1>
+</div>
+
+<script>
+  const text = "Tulisan berjalan satu persatu.";
+  const textContainer = document.getElementById("animated-text");
+  
+  function animateText(index) {
+    textContainer.textContent = text.substring(0, index);
+    if (index < text.length) {
+      setTimeout(function() {
+        animateText(index + 1);
+      }, 100); // Ubah nilai timeout sesuai kebutuhan
+    }
+  }
+
+  // Mulai animasi
+  animateText(0);
+</script>
+
+</body>
+</html>
